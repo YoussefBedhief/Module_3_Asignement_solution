@@ -2,8 +2,6 @@
 
 body {
 	background: #eee;
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 #header-nav{
@@ -27,7 +25,6 @@ body {
 	text-shadow: 1px 1px 1px black;
 	line-height: .75;
 	margin-left: 25px;
-
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
@@ -46,6 +43,7 @@ body {
 	font-weight: bold;
 }
 /*Header ends here*/
+/*Main begin here*/
 #main-content{
 	padding: 0;
 }
@@ -69,9 +67,29 @@ body {
 	height: 1000px;
 	padding: 0;
 }
+/*Main ends here*/
+
 @media (max-width: 767px){
 	#main-section{
 		width: 80%;
 		margin: 0 70px;
+	}
+}
+@media (min-width: 500px) and (max-width: 580px){
+	#main-title{
+		margin-left: 30px;
+	}
+	#main-section{
+		margin: 0 70px;
+		height: 1200px;
+	}
+}
+@media (min-width: 320px) and (max-width: 499px){
+	#main-title{
+		margin-left: 0px;
+	}
+	#main-section{
+		margin: 0 40px;
+		height: 1200px;
 	}
 }
