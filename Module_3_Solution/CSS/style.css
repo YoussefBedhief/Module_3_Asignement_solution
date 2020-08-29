@@ -1,0 +1,77 @@
+
+
+body {
+	background: #eee;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#header-nav{
+	background: #333;
+	border-radius: 0;
+	border: 0;
+}
+#header-content{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+	margin-bottom: 25px; 
+}
+.navbar-brand h1{
+	margin: 0 ;
+	color: #eee;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	line-height: .75;
+	margin-left: 25px;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#collapsable-nav ul{
+	margin: 0;
+	background: #9d00ff;
+	text-align: center;
+}
+#collapsable-nav ul li{
+	border: 1px solid #333;
+}
+#collapsable-nav ul li a{
+	color: #333;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+/*Header ends here*/
+#main-content{
+	padding: 0;
+}
+#main-title{
+	font-size: 3em;
+	font-weight: 500;
+	text-shadow: 1px 1px 1px black;
+	line-height: .75;
+	margin-bottom: 25px;
+}
+#main-section{
+	background: gray;
+	border: 1px solid #333;
+	text-align: center;
+}
+#Chiken{
+	font-size: 2em;
+	text-shadow: 1px 1px 1px black;
+}
+#text{
+	height: 1000px;
+	padding: 0;
+}
+@media (max-width: 767px){
+	#main-section{
+		width: 80%;
+		margin: 0 70px;
+	}
+}
